@@ -1,0 +1,174 @@
+body{
+background-color:#fafafa;
+}
+
+.main_loginpage{
+    display:flex;
+    margin:20px;
+}
+
+.left_mob_image{
+    width: 350;
+}
+
+
+.logo_loginpage{
+    width:120px;
+    margin:20px;
+
+}
+
+.rightcomponent_loginpage{
+    width: 350px;
+    height: 325px;
+    border:1px solid grey;
+    margin-top:20px;
+    text-align: center;
+    background-color:white;
+}
+
+.inpgrp_signin{
+    
+}
+
+.inp{
+    width:250px;
+    height:30px;
+    margin: 5px 10px 5px 10px;
+    border:1px solid grey;
+    background-color:#FAFAFA;
+    padding-left:10px;
+    border: radius 5px;
+}
+
+
+.btn{
+width:265px;
+height:30px;
+font-weight:bold;
+border:1px solid #0385F6;
+background-color:#01aaff;
+color:white;
+margin-top:10px;
+border-radius:8px;
+opacity:0.7;
+
+}
+.divider{
+
+}
+
+.or_container{
+    display: flex;
+    justify-content:center;
+    margin-top:10px;
+    gap:8px;
+
+}
+
+
+.or{
+    margin-top:0px 10px;
+    font-weight:500;
+    font-size :13px;
+    color:#8E8E8E;
+}
+
+
+.or_divider{
+    margin-top:10px;
+    width:90px;
+    height:0px;
+    border:1px solid grey;
+
+
+}
+
+.login_fb img{
+    float:left;
+    margin-top:10px;
+    margin-left:65px;
+    width:20px; 
+    height:20px;
+
+}
+
+.login_fb span .fb_link{
+    float:left;
+    margin-top:10px;
+    font-weight:600;
+    font-size:13px;
+    margin-left:5px;
+   color: #00376B;
+}
+
+.forgot_pass a{
+    display: flex;
+    justify-content:center;
+    margin-top:40px;
+    font-size:10px;
+}
+
+
+
+.rightcomponent_signuplink{
+    display:flex;
+    width: 320px;
+    height: 55px;
+    border:1px solid grey;
+    margin-top:30px;
+    text-align: center;
+    background-color:white;
+}
+
+
+
+
+.signin_login_opt{
+    font-weight:400;
+    font-size:13px; 
+
+
+}
+.dnt_acct{
+    padding:16px 60px;
+    }
+
+.have_acct{
+padding:16px 80px;
+}
+
+.signin_login_opt .have_acct span a{
+    font-weight:600;
+    color:#01aaff;
+
+    
+}
+.signin_login_opt .dnt_acct span a{
+    font-weight:600;
+    color:#01aaff;
+
+    
+}
+
+
+.rightcomponent_downloadlink{
+    display:flex;
+    width: 320px;
+    height: 95px;
+}
+
+.downloadapp .get_app{
+    display: flex;
+    font-weight: 300;
+    font-size:14px;
+    padding:4px 115px;
+    
+}
+
+
+.apps img{
+    width:100px;
+    height:35px;
+    /* padding: 2px  50px; */
+}

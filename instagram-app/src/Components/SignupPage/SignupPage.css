@@ -1,0 +1,179 @@
+body{
+    background-color:#fafafa;
+    }
+    
+    .main_signuppage{
+        display:flex;
+        margin:20px;
+    }
+    
+
+    
+    .maincomponent_signuppage{
+        width: 350px;
+        height: 605px;
+        border:1px solid grey;
+        margin-top:20px;
+        text-align: center;
+        background-color:white;
+    }
+
+
+    .logo_signuppage{
+        width:120px;
+        margin:20px;
+    
+    }
+    
+    .input_signup{
+        margin-top: 15px;
+    
+    }
+    
+    .inp{
+        width:250px;
+        height:35px;
+        margin: 5px 10px 5px 10px;
+        border:1px solid grey;
+        background-color:#FAFAFA;
+        padding-left:10px;
+        border: radius 5px;
+    } 
+
+    .signup{
+        padding:6px 18px;
+        text-align:center;
+        color:rgb(115, 114, 114);
+        font-size:18px;
+        font-weight:500;
+    }
+    
+    
+    .btn{
+        margin-top:10px;
+    width:265px;
+    height:30px;
+    font-weight:bold;
+    border:1px solid #0385F6;
+    background-color:#0095ff;
+    color:white;
+    padding:6px 48px;
+    border-radius:8px;
+
+   
+    
+    }
+    .btn img{
+        float:left;
+        justify-content:center;
+        /* margin-left:65px; */
+        align-items:center;
+        width:16px; 
+        height:16px;
+    
+  }
+       .divider{
+    
+    }
+    
+    .or_container{
+        display: flex;
+        justify-content:center;
+        margin-top:10px;
+        gap:8px;
+    
+    }
+    
+    
+    .or{
+        margin-top:0px 10px;
+        font-weight:500;
+        font-size :13px;
+        color:#8E8E8E;
+    }
+    
+    
+    .or_divider{
+        margin-top:10px;
+        width:90px;
+        height:0px;
+        border:1px solid grey;
+    
+    
+    }
+
+    .learn_more{
+        padding:8px 35px;
+        text-align:center;
+        color:rgb(115, 114, 114);
+        font-size:13px;
+        font-weight:400;
+    }
+    
+    .learn_more a{
+        text-decoration: none;
+    }
+   
+    .privacy_policy{
+        padding:8px 35px;
+        text-align:center;
+        color:rgb(115, 114, 114);
+        font-size:13px;
+        font-weight:400;
+    }
+
+
+    .privacy_policy a{
+        text-decoration: none;
+    }
+    
+/*    .login_fb span .fb_link{
+        float:left;
+        margin-top:10px;
+        font-weight:600;
+        font-size:13px;
+        margin-left:5px;
+    }
+    
+    .forgot_pass a{
+        display: flex;
+        justify-content:center;
+        margin-top:35px;
+        font-size:12px;
+    }*/
+    
+
+    .maincomponent_loginlink{
+        width: 350px;
+        height: 60px;
+        border:1px solid grey;
+        margin-top:50px;
+        text-align: center;
+        background-color:white;
+    }
+
+    .signup_login_opt{
+        font-weight:400;
+        font-size:14px;
+    }
+    
+    .signup_login_opt .have_acct span a{
+        font-weight:600;
+        color:#42b4ed;
+    }
+    
+    .downloadapp .get_app{
+        display: flex;
+        margin-top:15px;
+        font-weight: 400;
+        font-size:15px;
+        justify-content:center;
+    }
+    
+    
+    .apps img{
+        width:100px;
+        height:35px;
+        padding: 8px;
+    }
+     
