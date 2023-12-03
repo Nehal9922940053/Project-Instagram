@@ -1,3 +1,58 @@
-.post_container{
-    
+.logoforpost{
+    padding:10px;  
+    width:30px;
+    height:30px;
+    cursor:pointer;
+}
+
+
+.modalForPost{
+    width:60%;
+    height:86vh;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    border-radius:10px;
+    padding:20px;
+    border:none;
+    background-color:#fff !important;
+    margin-top:28px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+     /* overflow:auto;  */
+    outline:none;
+}
+
+ .modalForPost__overlay{
+    background-color:rgba(0,0,0,0.8);
+} 
+
+.imgForPost{
+    max-width:94%;
+    height:auto;
+    object-fit:cover;
+}
+
+.scrollable-div{
+    height:58vh;
+    overflow:auto;
+}
+
+.scrollable-div::-webkit-scrollbar{
+    width:0.5em;
+    background-color:transparent !important;
+}
+
+.scrollable-div::-webkit-scrollbar-thumb{
+    background-color:transparent !important;
+}
+
+.postusericon
+{
+width:40px; 
+height:40px;
+position:static;
+top:40px;
+border-radius:50%; 
+object-fit:cover;
+margin-top:-84;
 }

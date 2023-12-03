@@ -4,24 +4,34 @@ const UserSchema = new mongoose.Schema(
     {
         username:{
             type:String,
-            require:true,
-            min:3,
-            max:16,
-            unique:true,
+            require:true
         },
         email:{
             type:String,
             require:true,
-            min:4,
-            max:50,
-            unique:true,
+            unique:true
+        },
+        profile:{
+            type:String,  
+        },
+        followers:{
+            type:Array,
+        },
+        followings:{
+            type:Array,
         },
         password:{
             type:String,
-            require:true,
-            min:6,
+            require:true
         },
-        bio:{
+    },{timestamps:true});
+
+
+module.exports = mongoose.model('User',UserSchema);
+
+
+/*
+ bio:{
             type:String,
             max:60,
             default:"",
@@ -51,7 +61,6 @@ const UserSchema = new mongoose.Schema(
         jwt:{
             type:String,
         }
-    }
-)
 
-module.exports = mongoose.model('User',UserSchema);
+*/
+

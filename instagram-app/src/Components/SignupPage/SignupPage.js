@@ -1,11 +1,10 @@
 import React, {useState} from "react";
 import './SignupPage.css';
-import {Grid} from "@mui/material"
 import ig_logo from "../../images/logoinsta.png"
 import appstore from "../../images/app.png";
 import playstore from "../../images/play.png";
 import facebook from"../../images/facebook.png";
-
+import Footer from "../Footer/Footer";
 import { firebaseAuth } from "../../Utils/firebase-config";
 import { useNavigate } from "react-router-dom";
 import { createUserWithEmailAndPassword, onAuthStateChanged } from "firebase/auth";
@@ -36,12 +35,7 @@ const SignupPage = () => {
 
 
         return (
-            <div>
-            <Grid container>
-            <Grid item xs={3}>
-            Hello
-            </Grid>
-            <Grid item xs={6}>
+            <div className="signuppage">
             <div className="main_signuppage">
             <div className="maincomponent_signuppage">
             <img src={ig_logo} alt="Instagram Logo" className="logo_signuppage"/>   
@@ -119,15 +113,10 @@ const SignupPage = () => {
             </div>
 
          </div>
-            </div>  
-            
-            </Grid>
-            
-            
-            <Grid item xs={3}>
-            Narvekar
-            </Grid>
-            </Grid>
+            </div>
+            <div className="footer">
+            <Footer/>
+             </div> 
             </div>
         );
     }

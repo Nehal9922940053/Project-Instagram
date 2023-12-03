@@ -1,0 +1,32 @@
+.profilerightbar{
+    flex: 1;
+    padding-left:40px;
+    color:black !important;
+    padding-top:20px;
+    duisplay:flex;
+    padding:250px;
+    flex-wrap:wrap;
+}
+
+.subProfilerightbar{
+    color:black !important;
+    padding-top:20px;
+    diaplay:flex;
+    margin-left:60px;
+}
+
+
+.postContainerForProfile{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:80px;
+    margin-left:60px;
+}
+
+.footer{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}

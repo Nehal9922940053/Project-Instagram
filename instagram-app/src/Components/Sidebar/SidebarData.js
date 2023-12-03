@@ -44,11 +44,11 @@ export const SidebarData = [
         icon:<AddBoxOutlinedIcon/>,
         link:"/home"
     },
-    {
-        title:"Profile",
-        icon:<AccountCircleOutlinedIcon/>,
-        link:"/home"
-    }
+    // {
+    //     title:"Profile",
+    //     icon:<AccountCircleOutlinedIcon/>,
+    //     link:"/home"
+    // }
 ]
 
 

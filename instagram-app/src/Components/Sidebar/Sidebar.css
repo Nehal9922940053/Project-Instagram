@@ -1,4 +1,223 @@
-.Sidebar{
+*{
+    margin: 0;
+    padding: 0;
+}
+.mainsidebar{
+    padding-right: 80px;
+    display:flex;
+    height: 100vh;
+    overflow: hidden;
+    position: fixed;
+    max-width: auto !important;
+    border-right: 1.5px solid #E5E4E2;
+}
+.listtext {
+    color:black;
+    list-style-type: none;
+}
+
+
+.logos{
+    height:42px;
+    width:110px !important;
+    font-style:bold !important;
+    /* margin-left:0; */
+}
+   
+ul{
+    margin-left:20px;
+}
+
+.searchicon{
+    width:25px;
+    height:25px;
+}
+
+
+.exploreicon{
+    width:30px;
+    height:30px;
+}
+
+
+.reels{
+    width:25px;
+    height:25px;
+}
+
+
+.message{
+    width:30px;
+    height:30px;
+
+}
+
+.profileicon{
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    object-fit:cover;
+}
+
+.threadandmore{
+    margin-top:80px;
+}
+
+.threads{
+    width:30px;
+    height:30px;
+}
+
+.textinputforpost{
+    margin-top:15px;
+    width:100%;
+    height:200px;
+    color:"white"; 
+    font-size:20px !important;
+    border:none !important;
+    resize:none !important;
+    outline:none !important;
+}
+
+
+.textinputforpost::placeholder{
+    font-size:15px;
+}
+
+.createpost{
+    padding:5px 40px !important;
+    background-color:#0095F6 !important;
+    color:#fff;
+    border:none;
+    border-radius:20px !important;
+    cursor:pointer;
+}
+
+.searchbar{
+    width:432px !important;
+    height:100vh;
+    background-color:#fff;
+    margin-left:10px;
+    padding-left:5px !important;
+    border-left:1.5px solid #E5E4E2; 
+    /* Z-index:1; */
+    border-radius: 0px 20px 20px  0px;
+}
+
+.subSearchbar{
+    display:flex;
+    align-items:center;
+    margin-top:10px !important;
+    padding:10px;
+}
+
+/* 
+
+
+
+.subSearchbar:hover{
+    color:#fff !important;
+}
+
+.ubSearchbar::before{
+    transform:scale(1);
+}
+
+.subSearchbar::after{
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    border-radius:50%;
+    z-index:-1;
+}
+ */
+
+
+.hide-border{
+    border:none !important;
+}
+
+.searchiconbar{
+    position:absolute;
+    left:92px;
+    z-index:1;
+    color:#E5E4E2;
+    height:15px !important;
+    width:15px !important;
+}
+
+
+.showsearchinput{
+    background-color:#E5E4E2;
+    border:none; 
+    width:90%; 
+    padding:0 28px;
+    height:35px;
+    border-radius:8px;
+    outline:none;
+}
+
+.showsearchinput::placeholder{
+    color:#A9A9A9 !important;
+    font-size:15px;
+}
+
+
+
+/* .closebar{ 
+     position:absolute;
+     top:104px !important;
+     right:192px;
+    width:20px !important;
+    height:20px !important;
+    background-color:#d3d3d3;
+    border-radius:50%;
+}
+
+
+
+
+
+
+/* .closeicon{
+    position:absolute;
+    top:102px !important;
+    right:152px;
+    width:18px !important;
+    height:18px !important;
+    padding:1px;
+    color:white !important;
+    z-index:1;
+}  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .Sidebar{
     height: 100%;
     background-color: #ffe6fd;
     width: 200px;
@@ -77,7 +296,7 @@ place-items: center;
     
 
 }
-
+ */
 
 /* 
 -webkit-text-size-adjust: 100%;

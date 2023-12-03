@@ -1,0 +1,10 @@
+.Explorerightbar{
+    flex: 1;
+    padding-left: 40px;
+    /* color:'black'; */
+    padding-top: 20px;
+    display:flex;
+    padding-left:250px;
+    flex-wrap: wrap;
+    
+}

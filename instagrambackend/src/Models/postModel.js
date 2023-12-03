@@ -6,23 +6,34 @@ const postSchema = new mongoose.Schema(
             type:mongoose.Schema.Types.ObjectId,
             ref:"User"
         },
-        description:{
+        title:{
             type:String,
-            max:2300
         },
-        imgurl:{
+        image:{
             type:String,
         },
         likes: {
-            type:mongoose.Schema.Types.ObjectId,
-            ref:"User"
+            type:Array
         },
-        comment: {
-            type:mongoose.Schema.Types.ObjectId,
-            ref:"User"
-        },
-        timestamps : true
-    }
-);
+        comments: [
+            {
+                user: {
+                    type:mongoose.Schema.Types.ObjectId,
+                    required:true
+                    },
+                username:{
+                    type:String,
+                    required:true
+                },
+                profile:{
+                    type:String,
+                },
+                comment:{
+                    type:String,
+                    required:true
+                },
+            }
+        ], 
+    },{timestamps : true});
 
 module.exports = mongoose.model("Post",postSchema); 
